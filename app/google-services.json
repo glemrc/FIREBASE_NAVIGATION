@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "254624832714",
+    "project_id": "pregrado2024-9576e",
+    "storage_bucket": "pregrado2024-9576e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254624832714:android:1e66629eb47ef87c39a833",
+        "android_client_info": {
+          "package_name": "com.glemrc.firebases9"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnsn-zkRovykfP72Su_UBDsxTsMQoExBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
