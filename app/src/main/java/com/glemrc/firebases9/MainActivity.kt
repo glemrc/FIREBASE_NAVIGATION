@@ -1,7 +1,9 @@
 package com.glemrc.firebases9
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -23,6 +25,12 @@ class MainActivity : AppCompatActivity() {
         val db =  FirebaseFirestore.getInstance()
         val tvCurso = findViewById<TextView>(R.id.tvCurso)
         val tvNota = findViewById<TextView>(R.id.tvNota)
+        val btnRegresar = findViewById<Button>(R.id.btnRegresar)
+
+        btnRegresar.setOnClickListener{
+            startActivity(Intent(this, LoginActivity::class.java))
+            finish()
+        }
 
         db.collection("courses")
             .addSnapshotListener{ snapshot, error ->
