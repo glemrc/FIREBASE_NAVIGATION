@@ -62,4 +62,12 @@ dependencies {
 
     //Implementa Picasso
     implementation("com.squareup.picasso:picasso:2.8")
+
+    //Implementa Glide
+    implementation("com.github.bumptech.glide:glide:4.16.0")
+
+    //Implementa Retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.9.0")
 }

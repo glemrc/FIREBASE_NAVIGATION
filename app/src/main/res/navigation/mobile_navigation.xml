@@ -7,16 +7,21 @@
     <fragment
         android:id="@+id/navAnimals"
         android:name="com.glemrc.firebases9.ui.fragments.AnimalsFragment"
-        android:label="fragment_animals"
+        android:label="ANIMALS"
         tools:layout="@layout/fragment_animals" />
     <fragment
         android:id="@+id/navProduct"
         android:name="com.glemrc.firebases9.ui.fragments.ProductFragment"
-        android:label="fragment_product"
+        android:label="PRODUCT"
         tools:layout="@layout/fragment_product" />
     <fragment
         android:id="@+id/navRegister"
         android:name="com.glemrc.firebases9.ui.fragments.RegisterFragment"
-        android:label="fragment_register"
+        android:label="REGISTER"
         tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/nav_product_api"
+        android:name="com.glemrc.firebases9.ui.fragments.ProductApiFragment"
+        android:label="PRODUCT API"
+        tools:layout="@layout/fragment_product_api" />
 </navigation>
